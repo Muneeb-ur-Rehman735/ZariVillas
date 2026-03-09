@@ -1,0 +1,86 @@
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+
+    .hero-section {
+        height: 400px;
+    }
+
+    .hero-msg {
+        font-size: 28px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .container1 {
+        grid-template-columns: 1fr;
+    }
+
+    .images {
+        flex-direction: column;
+    }
+
+    .images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .deals {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    header {
+        padding: 10px 15px;
+    }
+
+    .menu {
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .hero-msg {
+        font-size: 40px;
+        padding: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .images img {
+        width: 400px;
+        height: auto;
+    }
+
+}
