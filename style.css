@@ -118,6 +118,7 @@ header .icons {
 
 .box2 {
   max-width: 280px;
+
 }
 
 .deal2 {
@@ -225,11 +226,11 @@ button:hover {
   position: relative;
   display: flex;
   justify-content: center;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .images img {
-  width: 640px;
+  width: 660px;
   height: 600px;
 }
 
@@ -272,7 +273,7 @@ button:hover {
 }
 
 .links ul li a:hover {
-  color: orange;
+  color: #c21f14;
   text-decoration: underline;
 }
 
@@ -305,6 +306,6 @@ button:hover {
 }
 
 .footer:hover {
-  color: orange;
+  color: #c21f14;
   text-decoration: underline;
 }

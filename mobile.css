@@ -1,5 +1,7 @@
-@media (max-width: 600px) {
-
+@media (max-width: 950px) {
+*{
+    overflow-x: hidden;
+}
     header {
         flex-direction: column;
         align-items: center;
@@ -54,7 +56,7 @@
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1366px) {
 
     header {
         padding: 10px 15px;
